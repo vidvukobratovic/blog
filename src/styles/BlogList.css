@@ -1,0 +1,8 @@
+/* src/styles/BlogList.css */
+.blog-image {
+    width: 350px; /* Set the desired width */
+    height: 550px; /* Set the desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the specified dimensions */
+    margin: 10px; /* Add margin for spacing between images */
+  }
+  

@@ -1,0 +1,46 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0;
+  background-color: #dad7cd;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #3a5a40;
+  font-family: 'Barriecito', cursive; /* Use Barriecito for the title */
+}
+
+a {
+  text-decoration: none;
+  color: #344e41;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.app-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-right: 20px;
+}
