@@ -1,33 +1,33 @@
+/* src/styles/App.css */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Silkscreen', monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   height: 100vh;
   margin: 0;
-  background-color: #dad7cd;
+  background-color: #282c35;
 }
 
 h1 {
   margin-bottom: 10px;
-  color: #3a5a40;
-  font-family: 'Barriecito', cursive; /* Use Barriecito for the title */
+  color: #e5e5e6;
+  font-family: 'Silkscreen', monospace; /* Apply Silkscreen font to h1 */
 }
 
 a {
   text-decoration: none;
-  color: #344e41;
-  font-family: 'Open Sans', sans-serif;
+  color: #e5e5e6;
 }
 
 .app-container {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px; /* Increase the margin between header and body */
 }
 
 header {
-  margin-bottom: 20px;
+  margin-bottom: 30px; /* Increase the margin at the bottom of the header */
 }
 
 nav {
@@ -44,3 +44,5 @@ ul {
 li {
   margin-right: 20px;
 }
+
+
