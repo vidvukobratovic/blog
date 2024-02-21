@@ -14,10 +14,11 @@ const BlogList = () => {
     <div className="blog-list">
       <BlogImage
         to="/blog/post1"
-        src={import.meta.env.BASE_URL + "a.jpg"}
-        alt="Blog Post 1"
-        title="Page 1"
+        src={import.meta.env.BASE_URL + "v1.png"}
+        alt="Caffè Macchiato"
+        title="Caffè Macchiato"
       />
+      {/*
       <BlogImage
         to="/blog/post2"
         src={import.meta.env.BASE_URL + "80.jpg"}
@@ -30,6 +31,7 @@ const BlogList = () => {
         alt="Blog Post 3"
         title="Page 3"
       />
+      */}
     </div>
   );
 };

@@ -10,7 +10,6 @@ p {
   p::after {
     content: '';
     display: inline-block;
-    width: 100%; /* Fill the remaining space on the last line */
   }
   
   .about-link {

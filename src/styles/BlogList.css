@@ -13,8 +13,8 @@
 }
 
 .blog-image {
-  width: 100%; /* Use 100% width to fill the container */
-  height: 100%;
+  width: 350px; /* Use 100% width to fill the container */
+  height: auto;
   object-fit: cover;
   transition: filter 0.3s;
 }
@@ -30,7 +30,7 @@
   justify-content: center;
   color: #e5e5e6;
   font-size: 20px;
-  background: rgba(0, 0, 0, 0.7); /* Darker semi-transparent overlay */
+  background: rgba(0, 0, 0, 0.5); /* Darker semi-transparent overlay */
   opacity: 0;
   transition: opacity 0.4s;
 }
