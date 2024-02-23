@@ -36,7 +36,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<BlogList />} />
             <Route path="/about" element={<About />} />
-            <Route path="/blog/post1" element={<BlogPost1 />} />
+            <Route path="/macchiato" element={<BlogPost1 />} />
             <Route path="/blog/:postId" element={<BlogPost />} />
           </Routes>
         </main>
@@ -51,7 +51,12 @@ const App = () => {
 const DynamicTitle = () => {
   const location = useLocation();
   const pageTitle =
-    location.pathname === "/" ? "Home" : location.pathname.slice(1);
+    location.pathname === "/"
+      ? "Home"
+      : location.pathname.slice(1).charAt(0).toUpperCase() +
+        location.pathname.slice(2);
+
+  pageTitle == pageTitle.charAt(0).toUpperCase() + pageTitle.slice(1);
 
   return (
     <Helmet>

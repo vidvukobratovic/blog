@@ -13,7 +13,7 @@ const BlogList = () => {
   return (
     <div className="blog-list">
       <BlogImage
-        to="/blog/post1"
+        to="macchiato"
         src={import.meta.env.BASE_URL + "v1.png"}
         alt="Caffè Macchiato"
         title="Caffè Macchiato"
